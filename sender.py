@@ -22,9 +22,12 @@ class Sender:
 
     def time_n_temp(self):
         json = self.send_n_receive().json()
-        time = json["hourly"]["time"]
-        temp = json["hourly"]["temperature_2m"]
-        return [time, temp]
+        if 'error' in json:
+            temp = "error"
+        else:
+            time = json["hourly"]["time"]
+            temp = json["hourly"]["temperature_2m"]
+        return temp
 
     def mid_temp(self, setting):
         j = 0
@@ -32,9 +35,9 @@ class Sender:
         if setting == "0":
             max = 24 * 7
         else:
-            j = int(setting)
+            j = int(setting) - 1
 
-        [times, temps] = self.time_n_temp()
+        temps = self.time_n_temp()
 
         mid = 0
         for i in range(max):
