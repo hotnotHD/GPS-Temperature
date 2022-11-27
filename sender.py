@@ -26,5 +26,19 @@ class Sender:
         temp = json["hourly"]["temperature_2m"]
         return [time, temp]
 
+    def mid_temp(self, setting):
+        j = 0
+        max = 24
+        if setting == "0":
+            max = 24 * 7
+        else:
+            j = int(setting)
 
+        [times, temps] = self.time_n_temp()
+
+        mid = 0
+        for i in range(max):
+            mid += temps[i + j*24]
+        mid /= max
+        return mid
 
