@@ -1,5 +1,6 @@
 from sender import Sender
 
+
 if __name__ == '__main__':
     send = Sender()
     print("latitude:")
@@ -13,3 +14,9 @@ if __name__ == '__main__':
     print(file)
     print(file[0])
     print(file[1])
+
+    print("Middle temperature (0 - 7 days, 1-7 - day from today):")
+    day = input()
+    print("Mid temperature: " + str(send.mid_temp(day)))
+
+
