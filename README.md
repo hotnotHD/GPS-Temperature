@@ -10,6 +10,9 @@
 4. Выбор города из списка.
 5. Возможность узнать координаты города.
 
+## Тестирование
+[![Tests for GPS-Temperature](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml/badge.svg)](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml)
+
 ## Запуск
 
 Для запуска необходимо клонировать репозиторий, установить библиотеки из файла `requirements.txt`
