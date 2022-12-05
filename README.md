@@ -3,14 +3,15 @@
 
 Консольное приложение для получения средней температуры по GPS координатам.
 
-[![Tests for GPS-Temperature](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml/badge.svg)](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml)
-
 ## Возможности
 1. Получение средней температуры за 7 дней.
 2. Получение средней температуры за 1 день на выбор.
 3. Получение температуры по координатам.
 4. Выбор города из списка.
 5. Возможность узнать координаты города.
+
+## Тестирование
+[![Tests for GPS-Temperature](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml/badge.svg)](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml)
 
 ## Запуск
 
