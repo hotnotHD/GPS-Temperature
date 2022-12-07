@@ -11,7 +11,8 @@
 5. Возможность узнать координаты города.
 
 ## Тестирование
-[![Tests for GPS-Temperature](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml/badge.svg)](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml)
+main - [![Tests for GPS-Temperature](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml/badge.svg?branch=main)](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml)   
+develop - [![Tests for GPS-Temperature](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml/badge.svg?branch=develop)](https://github.com/hotnotHD/GPS-Temperature/actions/workflows/python-app.yml)
 
 ## Запуск
 
